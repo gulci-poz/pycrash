@@ -18,6 +18,8 @@ odd = list(range(1, 101, 2))
 print(odd)
 
 squares = []
+# możemy iterować od razu po range, bez generowania listy
+# range to typ (klasa), sekwencja liczb (immutable)
 for value in list(range(1, 101)):
     squares.append(value ** 2)
 
@@ -52,3 +54,7 @@ print(squares_copy)
 magicians_ref = magicians
 magicians_ref.append('gulci')
 print(magicians)
+
+print('list comprehension ze skokiem co 10')
+print(comprehension[9::10])
+print('długość listy: ' + str(len(comprehension)))
