@@ -15,6 +15,7 @@ message = "Hello, " + name.title()
 print(message)
 
 # jeden tab w środku stringa działa jak spacja, dwa dają spację i tab
+# tylko w pyCharm, w konsoli jest ok
 print("\ttab\t\ttab")
 print("\nnew line")
 print("\"quotation")
